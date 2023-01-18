@@ -1,0 +1,135 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hello! I'm Eduardo Lopez. Product Marketer and Author of the Fintech Explainers newsletter. I lead go-to-market strategy and product marketing for fintechs.">
+  <meta name="keywords" content="eduardo lopez, eduardolopez">
+  <meta name="title" content="Eduardo Lopez">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:site" content="https://elopez.net">
+  <meta name="twitter:image" content="/img/favicon.png">
+  <meta name="twitter:creator" content="@fintechgtm">
+  <link rel="icon" href="/img/favicon.png">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https:&#x2F;&#x2F;www.elopez.net&#x2F;atom.xml">
+  
+</head>
+<body>
+  <div class="main-container">
+    <div class="row" style="margin-bottom: 20px;">
+      <div class="grid twelve" style="display: flex; align-items: center;">
+        <div style="flex-grow: 1;">
+          <a href="/elopez" style="text-decoration: none; color: inherit;">
+            <span class="logo">EL</span>
+          </a>
+        </div>
+        <a href="/elopez/essays" class="nav-item">Essays</a>
+        <a href="https://fintechgtm.substack.com" class="nav-item">Newsletter</a>
+        <a href="/elopez/reading" class="nav-item">Reading</a>
+        <a href="/elopez/notes" class="nav-item">Notes</a>
+      </div>
+    </div>
+    <main>
+      
+<div class="grid twelve" style="text-align: center;">
+  <small style="text-transform: uppercase; font-weight: 600; font-size: 0.6em; letter-spacing: 2px;">
+    Essays
+  </small>
+  <h1 class="title">
+    Interchange Revenue
+  </h1>
+  <div class="container">
+    <small class="grid eight description">
+      An explainer on how interchange revenue works.
+    </small>
+  </div>
+</div>
+<article style="margin-top: 30px;">
+<p>Interchange is a major revenue driver for many fintechs.</p>
+<p>Companies that offer card products are growing revenue rapidly and securing massive valuations, such as Brex ($12.3B valuation) and Ramp ($8.1B valuation). Much of that revenue growth is due to interchange.</p>
+<p>In this piece, I'll break down the economics of interchange fees, their role in the payments market, and how founders can earn interchange by introducing new card products.</p>
+<h2>What is interchange?</h2>
+<p>Every time a consumer swipes a card to make a purchase, the merchant pays an interchange fee.</p>
+<p>Revenue from the fee gets divided among parties that facilitated the transaction: the banks that send and receive the payment, the card network, the payment processor, and&mdash;more recently&mdash;fintechs and businesses that embed payments.</p>
+<div><img src="https://uploads-ssl.webflow.com/637cc4f83fed1c7cbf48f8c8/6387cf2a17d78e7e3e635cfa_6373fed2466fa4511ac9afec_What-is-interchange.png" alt="" /></div>
+<p>While the fee for an individual transaction may only be pennies on the dollar, that revenue adds up over time. US merchants paid more than $110 billion in&nbsp;<a href="https://nilsonreport.com/mention/1443/1link">interchange fees</a>&nbsp;in 2020. &nbsp;Some fintechs get most of their revenue from these fees; others use interchange income to fund customer rewards that make their products stickier.</p>
+<h2>How does interchange work?</h2>
+<p>You go to a taqueria for lunch. You place a $10 order and swipe your card. On the consumer side, the transaction is simple enough, but more is happening behind the scenes.</p>
+<div><img src="https://uploads-ssl.webflow.com/637cc4f83fed1c7cbf48f8c8/6387cf2a17d78ef780635cf7_6373fed2466fa4299cc9afeb_how-interchange-works.png" alt="" /></div>
+<p>The card network will move the money from the consumers' bank account to the merchants' bank account. In the process they will take their portion, and remit the interchange revenue amount to the issuer, who ultimately shares with the bank and fintech.</p>
+<p>This interchange fee has been determined by the card network&mdash;Visa, Mastercard, American Express, Discover&mdash;based on a combination of factors. Credit card interchange rates tend to be higher than those for debit, for example; interchange rates for transactions at grocery stores tend to be on the lower end compared to other types of merchants.</p>
+<p>Let&rsquo;s say the fee comes out to 2.5%, or 25 cents. This fee is shared between the card processor, the issuing bank and the card network. When the card is white labeled by a fintech, the issuing bank may share a portion of its interchange fee with the fintech.</p>
+<p>These seemingly small fees add up.&nbsp;<a href="http://httpshttps">Visa makes about 7.5 cents on average per transaction</a>. Multiply that 7.5 cents by billions of transactions, and you get,&nbsp;<a href="http://httpshttps">multiple billions of dollars in revenue</a>, just from interchange.</p>
+<blockquote>By launching your own card product, you can capture the 150-200 basis points (bps) on customer transactions rather than letting it go to the pockets of the traditional card issuing banks.</blockquote>
+<p>So interchange revenue is big money, but why do merchants even have to pay to get their money? To better understand how it works, it helps to understand why interchange exists. Let&rsquo;s look at the history of interchange fees.</p>
+<h2>Why do card networks charge interchange?</h2>
+<p>Cards first appeared in the 1950s, but&nbsp;<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1017894">standard interchange</a>&nbsp;was not introduced until 1971. The fees helped solve a major challenge plaguing early credit card networks: How do we get people to use this thing? Or, phrased differently: how do we achieve the network effect necessary to make it all work?</p>
+<p>The complexities of the regulatory environment were one problem. Another was that banks at this time could only operate within their home states. Credit card issuers had to figure out how their cards would be accepted across this fragmented landscape and needed to give banks a financial incentive to issue cards to customers.</p>
+<p>With interchange fees, banks could make money from card transactions, and the fees would be levied on the merchants because charging consumers more would have discouraged widespread adoption.</p>
+<p>For merchants, the fee is a major cost. Andreessen Horowitz General Partner Alex Rampell, who previously worked at Visa,&nbsp;<a href="http://httpshttps">estimates that Target&rsquo;s annual net income would double were it not for interchange fees</a>. But cards drive more consumer spending: Dun &amp; Bradstreet found&nbsp;<a href="http://httpshttps">that people spend 12-18% more when using credit card instead of cash</a>.</p>
+<p>It took a long time for debit and credit cards to gain the upper hand in payments. As recently as 2003,&nbsp;<a href="http://httpshttps">checks were the most popular form of non-cash payment</a>&nbsp;in the US.</p>
+<p>By 2020, cards had not only eclipsed checks, but had surpassed cash as the &nbsp;<a href="http://httpshttps">most popular payment method</a>. As cards have gained popularity, interchange revenue has grown&nbsp;<a href="https://nrf.com/hill/policy-issues/swipe-fees">six-fold in the past two decades</a>.</p>
+<h2>What factors impact interchange rate?</h2>
+<p>Wondering how to calculate interchange rate? Well, calculating interchange rates is complicated. As of 2009, Visa had 60 interchange fee categories, and Mastercard had a staggering 243. Both networks release detailed tables annually that lay out the rates for every possible scenario of card payment (See examples from&nbsp;<a href="https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf">Visa</a>&nbsp;and&nbsp;<a href="http://httpshttps">Mastercard</a>).</p>
+<p>Here are some broader factors that influence interchange rates.</p>
+<h3>Credit vs. Debit</h3>
+<p>Interchange rates on credit cards are significantly higher than those on debit cards. Credit cards accounted for half of transaction value on cards in 2020 and seventy-five percent of card fees. The reason for this disparity is that credit cards are a higher risk for issuers. Credit card debt is basically an unsecured loan.</p>
+<h3>Rewards programs</h3>
+<p>Premium rewards credit cards gained popularity in the 1990s, offering consumers benefits like cash-back on every purchase. These benefits are financed through higher interchange rates, and have proven to be very popular with consumers. Increasingly, these rewards are also available with debit cards. There are also &ldquo;enhanced&rdquo; credit BINs that earn higher interchange fees, which in turn allow for higher cash-back.</p>
+<h3>Online vs. Offline</h3>
+<p>Online purchases are less secure than in-person purchases. A fraudster only needs a card number and security code to make a transaction, rather than a physical card. These numbers can be acquired through data breaches. This higher potential for fraud results in higher interchange rates on online purchases.</p>
+<h3>Consumer vs. Commercial</h3>
+<p>Cards associated with business or corporate accounts carry higher interchange rates than consumer cards.</p>
+<p>To give you a sense of the difference, a plane ticket purchased on an individual&rsquo;s consumer, non-rewards Visa credit card has an interchange rate of 1.75% plus 10 cents. The same ticket purchased on a Visa corporate card has an interchange rate of 2.65% plus 10 cents.</p>
+<h3>Merchant Category Code (MCC)</h3>
+<p>Every merchant is categorized by the major card networks according to a Merchant Category Code (MCC). This means that there are different interchange rates depending on whether someone uses a card in a supermarket, a retail store, a gas station, or with some other form of merchant.</p>
+<p>In addition to merchant categories, individual merchants may negotiate their own deals. A small supermarket might get charged one rate, while a massive retailer like Walmart might use its size and influence to negotiate a lower rate.</p>
+<h3>The Card Network</h3>
+<p>Different card networks charge different rates. Visa and Mastercard are known for charging lower rates. Other networks are known for charging higher rates. The difference comes down partly to overall risk in the networks.</p>
+<p>Networks that issue credit cards to customers with lower credit scores or less credit history, and whose accounts are therefore riskier, may charge higher interchange.</p>
+<p>Card networks also regularly raise rates. Networks that paused rate increases earlier in the pandemic are expected to&nbsp;<a href="http://httpshttps">make long-delayed rate hikes this year</a>.</p>
+<div><img src="https://uploads-ssl.webflow.com/637cc4f83fed1c7cbf48f8c8/6387cf2a17d78e05eb635cf9_6373fed2466fa40045c9afed_How-card-network-split-interchange-fees.png" alt="" /></div>
+<h3>Network partner programs</h3>
+<p>Visa and Mastercard&rsquo;s partner programs like VPP (Visa Partner Program) and MPP (Mastercard Partner Program) often give specific retailers interchange rates that are much lower than the networks&rsquo; published interchange rates.</p>
+<h3>Size of the issuing bank</h3>
+<p>Larger banks are subject to a regulation called the Durbin Amendment that caps interchange rates on consumer debit transactions. Smaller banks are exempt. As a result, these smaller banks can earn more revenue from interchange rates&mdash;and that benefits the fintechs and embedded finance businesses that partner with them.</p>
+<p><a href="https://davidmullen88.medium.com/unpacking-interchange-and-its-100b-effect-on-fintech-a10d898b26fa">One VC said</a>&nbsp;the Durbin Amendment would &ldquo;perhaps be one of the most effective vessels of government funding towards innovation of all time.&rdquo;</p>
+<h3>Size of the transaction</h3>
+<p>Transaction amounts also factor into how interchange rates are calculated because fees are made up of both fixed and variable amounts (e.g. 1.5% + $0.10). Small transactions actually have higher interchange rates as a percentage of the total transaction than larger transactions would. If you purchase an item for $1.00, the Interchange ends up being 1.5% + $0.10, which accounts for about 11.5% of the total transaction.</p>
+<h3>Interchange rate isn't everything</h3>
+<p>While you may be tempted to maximize your earning potential from interchange, take note that some card programs that earn higher interchange fees may be more expensive to run. Credit cards, for example, are more expensive to issue than debit cards because they come with higher risk.</p>
+<h2>What is the Durbin Amendment?</h2>
+<p>Under the&nbsp;<a href="https://kunle.app/feb-2022-children-of-durbin.html">Durbin Amendment</a>&nbsp;to the Dodd Frank Act of 2010, US banks with more than $10 billion in deposits can only charge interchange rates of up to 0.05 percent plus 22 cents on debit transactions.</p>
+<p>The Durbin Amendment was part of a push to make small banks more competitive in an increasingly concentrated market. Banks with less than $10 billion of deposits can continue to charge non-Durbin rates. It&rsquo;s important to note the amendment only applies to debit transactions, not credit.</p>
+<p>Durbin-exempt banks now average 44 cents in interchange per debit transaction, compared to 23 cents for Durbin-regulated banks. Those cents add up.</p>
+<h3>How startups, small financial institutions and fintech benefit</h3>
+<p>The Durbin Amendment has created a win-win situation for startups and small financial institutions. These Durbin-exempt banks have more interchange to share per transaction, enabling the partner fintech to bring in significant money.</p>
+<blockquote>According to The Information, Chime (a leading neobank)&nbsp;<a href="http://httpshttps">earned $600 million in interchange revenue in 2020</a>.</blockquote>
+<h3>Vertical SaaS profits from interchange by embedding financial services into their core product</h3>
+<p>It isn't just fintechs that are benefiting from interchange. Vertical SaaS companies are increasingly embedding financial products, particularly cards, into their core product. By offering payment cards to their customers, SaaS companies can increase customer retention and earn a meaningful share of the interchange revenue generated.</p>
+<p>Other regulations also shape interchange rates. For example, in Europe and Australia&mdash;where interchange rates are more strictly regulated&mdash;rates are lower.</p>
+<h2>How to monetize your product using interchange</h2>
+<p>At a high level, interchange revenue is fairly straightforward: Your company issues a card, then you earn revenue when your customers use it. But there are a lot of different ways to do this.</p>
+<blockquote>What kind of card do you issue? How does that card meet customer needs? And how do you use your interchange revenue?</blockquote>
+<p>In the below example, let&rsquo;s explore how one startup company is leveraging interchange income to rapidly grow their business.</p>
+<h3>The non-SaaS SaaS company: Ramp</h3>
+<p>Ramp is a spend management startup that helps corporate clients manage their expenses and find savings. The company is now&nbsp;<a href="http://httpshttps">valued at $8.1 billion</a>&nbsp;and has grown to $100M in revenue run rate in two years from launch&mdash;due in large part to interchange.</p>
+<div><img src="https://uploads-ssl.webflow.com/637cc4f83fed1c7cbf48f8c8/6387cf2a17d78e761a635cf8_6373fed2466fa452efc9afee_Ramp-Growth-to-100M-ARR.webp" alt="" /></div>
+<p>Not Boring's version of Bessemer State of the Cloud 2019</p>
+<p>Ramp&rsquo;s card combines two traditionally high-interchange categories: credit cards and commercial use cases. Because Ramp can charge relatively high interchange, the company has been able to introduce card benefits like 1.5 percent cash back on all purchases. The reward makes the card stickier, and the more clients spend, the more Ramp learns about them from the transaction data. Ramp is then able to strengthen the core services of their software offering.</p>
+<p>This is why, despite offering the core software for free, CEO and co-founder Eric Glyman says he still sees his company as a SaaS operator.</p>
+<h3>Other potential uses for interchange revenue</h3>
+<p>There are a number of other ways a company can integrate interchange revenue into its business model.</p>
+<p>Your company could issue prepaid debit cards to contractors, enabling your business to earn commercial interchange rates when they purchase items they need for work. If the cards are prepaid, you also simplify the reimbursement process&mdash;or remove the need for reimbursement altogether. Or if you&rsquo;re a retail company, you could issue debit cards to customers that offer special rewards for shopping with you or partner retailers.</p>
+<p>Interchange serves as a source of revenue, but also as a way to enhance your business. When you use it to fund a rewards program, you&rsquo;re able to build deep relationships with your customers and clients. The deeper you build that relationship, the more people use your card, and the more interchange revenue you earn.</p>
+
+</article>
+
+    </main>
+  </div>
+  <footer>
+    <p>© Eduardo Lopez</p>
+  </footer>
+</body>
