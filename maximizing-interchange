@@ -1,0 +1,147 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hello! I'm Eduardo Lopez. Product Marketer and Author of the Fintech Explainers newsletter. I lead go-to-market strategy and product marketing for fintechs.">
+  <meta name="keywords" content="eduardo lopez, eduardolopez">
+  <meta name="title" content="Eduardo Lopez">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:site" content="https://elopez.net">
+  <meta name="twitter:image" content="/img/favicon.png">
+  <meta name="twitter:creator" content="@fintechgtm">
+  <link rel="icon" href="/img/favicon.png">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https:&#x2F;&#x2F;www.elopez.net&#x2F;atom.xml">
+  
+</head>
+<body>
+  <div class="main-container">
+    <div class="row" style="margin-bottom: 20px;">
+      <div class="grid twelve" style="display: flex; align-items: center;">
+        <div style="flex-grow: 1;">
+          <a href="/elopez" style="text-decoration: none; color: inherit;">
+            <span class="logo">EL</span>
+          </a>
+        </div>
+        <a href="/elopez/essays" class="nav-item">Essays</a>
+        <a href="https://fintechgtm.substack.com" class="nav-item">Newsletter</a>
+        <a href="/elopez/reading" class="nav-item">Reading</a>
+        <a href="/elopez/notes" class="nav-item">Notes</a>
+      </div>
+    </div>
+    <main>
+      
+<div class="grid twelve" style="text-align: center;">
+  <small style="text-transform: uppercase; font-weight: 600; font-size: 0.6em; letter-spacing: 2px;">
+    Essays
+  </small>
+  <h1 class="title">
+    Guide to Maximizing Interchange Revenue
+  </h1>
+  <div class="container">
+    <small class="grid eight description">
+      A primer on ways to maximize interchange revenue for fintech card programs.
+    </small>
+  </div>
+</div>
+<article style="margin-top: 30px;">
+<p>In our first&nbsp;<a href="https://blog.lithic.com/interchange/">Interchange Guide</a>, we explained the basics of interchange fees, how interchange works, how it&rsquo;s shared between all of the participants in a transaction, and the main factors that impact your interchange take rate.</p>
+<p>We found a number of pieces written on this topic, but they were all geared to community banks and credit unions. In this guide, we&rsquo;ll provide actionable tips that fintech founders and operators can use to maximize their interchange revenue.</p>
+<p>This guide covers:</p>
+<ul>
+<li>6 principles about interchange revenue</li>
+<li>How to maximize interchange on various card program types</li>
+<li>Additional resources on interchange</li>
+</ul>
+<p>Disclaimer:&nbsp;Under no circumstances should you misrepresent your program. While there may be legitimate reasons to structure a card program so it can generate higher interchange, misrepresenting your business can get you in serious trouble with the card networks and even result in being dropped by your sponsor bank.</p>
+<h2>6 principles about interchange revenue</h2>
+<p>In general, interchange rates are paid to the issuer to offset their risk. How these rates are set can seem like more of an art than a science. Card networks have to balance the benefits and costs between issuers, cardholders and merchants.</p>
+<p>If rates are set too high, merchant acceptance drops and your cards will be accepted at fewer locations. If they&rsquo;re set too low, the issuer or fintech may not&nbsp;want&nbsp;to issue and promote cards on their network, in turn impacting consumer demand for cards. Interchange also funds benefits for consumers and businesses that are less immediately tangible, like fraud protections. Setting rates too low could mean networks can't fund those benefits.</p>
+<p>While your interchange rate will vary depending on several factors and what behaviors the card network is trying to promote, there are a few principles you can use to help you navigate what affects interchange.</p>
+<ol>
+<li>Commercial is generally higher than consumer:&nbsp;Commercial cards earn higher interchange than consumer cards, and commercial prepaid BINs have the highest interchange.</li>
+<li>Small is generally higher than large:&nbsp;Transactions at small merchants generate higher interchange revenue than with large merchants like Amazon, Sam&rsquo;s Club, and Walmart because the large vendors often negotiate lower interchange rates with the card networks.<br /><br />Large transactions also typically have a lower interchange rate than small ticket transactions, although the card networks have introduced programs to lower transaction fees on small-ticket transactions under $15 in order to incentivize merchants to accept cards. Historically, the biggest sector for cash has always been small-ticket items.</li>
+<li>Credit is generally higher than debit:&nbsp;Debit BINs offer lower interchange than credit BINs because the funds are verified immediately, so there is less risk than with a credit card transaction. There are 5 levels of credit cards that offer increasing rates of interchange, differentiated by the terms and rewards offered. The highest levels have higher standards and higher thresholds for rewards like points and cash back rewards. More on this in the credit section.</li>
+<li>Online is generally higher than in-person:&nbsp;Card-not-present (CNP) transactions generate higher interchange than card present transactions because the risk of fraud is lower when the customer&rsquo;s card is present. ​While CNP purchase volume amounts to less than 15% of all purchase volume worldwide, it accounts for 54% of all losses to fraud.</li>
+<li>Prepaid is generally higher than debit:&nbsp;In most cases, prepaid rates will meet or exceed debit interchange rates. This is also due to the likelihood of fraud. Because prepaid cards don't come with the same customer data that make it possible to detect and filter out traditional forms of payment card fraud, there is higher risk associated with these transactions.</li>
+<li>More transaction data generates lower interchange:&nbsp;The more transaction data you collect, the lower your interchange take rate. There are three levels of transaction data. Level 1 includes the merchant&rsquo;s DBA name, transaction amount, and the transaction date. Level 2 data is for tax abatement purposes and provides a tax rate and an invoice number. Level 3 was designed for government procurement.<br /><br />You&rsquo;ll lose 75 basis points (bps) in interchange for accessing Level 3 data, so consider whether you really&nbsp;want&nbsp;to be on a BIN that may require Level 2 and Level 3 data because you'll have to give up some interchange to pay for it. If you don't need Level 3 data, it might be a good idea to not be on a large market credit BIN.</li>
+</ol>
+<h2>Card program types and interchange fees</h2>
+<p>In this section, we&rsquo;ll explore four types of&nbsp;<a href="https://blog.lithic.com/consumer-card/">card programs</a>&nbsp;(from highest to lowest interchange) and how to maximize interchange for each program.</p>
+<h3>Prepaid cards</h3>
+<p>Prepaid cards are payment cards issued by banks that are not tied to a line of credit or a bank account and hold funds that are typically loaded in advance. While debit cards spend money that's stored in a bank account, prepaid cards spend funds that are stored on the card itself.</p>
+<p>Overview</p>
+<ul>
+<li>Prepaid cards can be used to make purchases at any merchants that accept the card network (e.g. Mastercard or Visa). But they also generally have the lowest merchant acceptance rate of all card types because they have the highest rate of fraud.</li>
+<li>Some companies prefer to issue prepaid cards instead of debit cards so they can avoid building and maintaining a checking account product for their end users.</li>
+<li>Prepaid cards are typically a good fit for&nbsp;someone&nbsp;who doesn&rsquo;t have&nbsp;easy&nbsp;access to a bank account with a corresponding debit card, as well as for businesses that are looking to disburse employee expenses.</li>
+<li>Interchange: High</li>
+</ul>
+<p>To better understand the world of prepaid cards, check out our explainer on prepaid cards and the&nbsp;<a href="https://blog.lithic.com/prepaid-rule">Prepaid Rule</a>.</p>
+<h3>How to maximize interchange on prepaid card programs</h3>
+<p>Prepaid cards offer limited options for increasing interchange. The key factor that impacts your take rate is whether a card program is on a consumer or commercial BIN.</p>
+<p>Other tactics you can use are true for other types of card programs as well, but they&rsquo;re still worth mentioning. First, you can incentivize your customers to use the card more often. This can include tactics like making the cards compatible with&nbsp;<a href="https://blog.lithic.com/digital-wallets/">digital wallets</a>&nbsp;and&nbsp;adding&nbsp;push provisioning so they can easily add it to their wallet of choice.</p>
+<p>You can also incentivize card usage through marketing by frequently communicating cardholder benefits and use cases based on their spending. Our sister company Privacy.com makes it&nbsp;easy&nbsp;for consumers to create one-time use virtual cards. One way they could incentivize users to use the service more often is by highlighting that one-time use cards are perfect for free trials that require a card to sign up for. If you don&rsquo;t like it, you can cancel the service and never have to worry about being billed again.</p>
+<p>One out of the box tactic is to leverage partnerships, marketing, and promotions to guide customers to high interchange categories. For example, given what we learned above about online driving higher interchange than offline transactions, you may&nbsp;want&nbsp;to consider partnering with a website that offers products customers usually buy in person (like groceries).</p>
+<h3>Charge cards</h3>
+<p>A charge card is a credit line that does not revolve, meaning that a user must pay off the balance in full at the end of each billing cycle. As a result, cardholders cannot rollover their credit balance and accumulate interest.</p>
+<p>Overview</p>
+<ul>
+<li>These cards generate more interchange revenue than debit cards.</li>
+<li>Charge cards are commonly designed for an upmarket audience who don&rsquo;t need to revolve a balance beyond their statement cycle.</li>
+<li>American express&nbsp;started&nbsp;as a charge card business but charge cards haven&rsquo;t been as popular as credit cards when people consider card programs.</li>
+<li>Interchange: Medium High</li>
+</ul>
+<h3>How to maximize interchange on charge card programs</h3>
+<p>Card networks have different tiers that qualify for higher interchange, which can help you maximize interchange on charge card programs. Qualifying for these tiers usually involves more work (e.g. higher volume per account, higher transaction approval rates, greater issuer-funded cardholder rewards, more valuable benefits, etc.).</p>
+<p>However, it&rsquo;s worth noting these tactics fall&nbsp;under&nbsp;&ldquo;advanced strategies&rdquo; and are probably a better route for companies with more mature card programs.</p>
+<h3>Credit cards</h3>
+<p>A credit card is a payment card attached to a revolving line of credit with a balance that can be carried&nbsp;month&nbsp;over month with corresponding interest payments.</p>
+<p>Overview</p>
+<ul>
+<li>Credit cards earn the highest interchange rate of all card types and provide additional revenue from the interest charged on rollover balances. The precise interchange rate will vary by network, network tier, and spend category.</li>
+<li>Potential revenue streams include interchange, interest, fees (i.e., international transaction fees, late payment fees), and annual fees. It is also possible to bundle the card&rsquo;s profit and loss into a larger product &mdash; the cross-sell opportunity your card product creates for your overall solution will offset costs.</li>
+<li>Unlike debit card products, this type of card has a large set of requirements around procuring capital, managing risk, and maintaining compliance.</li>
+<li>However, you will see less revenue from tokenized cards because Apple, Google, and Samsung charge a fee for use.</li>
+<li>Interchange: High</li>
+</ul>
+<h3>How to maximize interchange on credit card programs</h3>
+<p>Earlier we mentioned there are 5 levels of credit cards, and each comes with different terms and reward levels. When considering interchange,&nbsp;think&nbsp;carefully about the credit card level you&nbsp;want&nbsp;to do. Levels 3-5 deliver higher interchange but have higher standards and higher thresholds for points and cash back rewards.</p>
+<p>The advantage is that programs at these levels can attract customers with better credit scores that are considered less risky. However, you&rsquo;re contractually obligated to pay out rewards and points, which makes it possible for your program to end up in the red. And if you fail to meet your obligations to your customers, the card network can downgrade your card level.</p>
+<p>For commercial credit use cases, investigate Mastercard&rsquo;s Variable Interchange Program (VIP). VIP allows you to select from 34 available rates that best fit the demands of each of your supplier relationships. VIP allows rate variations based on various factors such as transaction type, date of payment and payment size.</p>
+<p>It&rsquo;s worth reminding you that this is a card program type where marketing communications can really help. Consider sending hyper-personalized emails to cardholders about their rewards and cash back incentives. The key is to make the cardholder benefits seem proactive.</p>
+<p>For example, you may&nbsp;want&nbsp;to consider&nbsp;adding&nbsp;some custom logic that triggers an auto-generated email notifying them that one of their purchases yielded extra cash back or rewards points. They may see this notification and choose to take further advantage of the rewards by purchasing more items in that category.</p>
+<h3>Debit cards</h3>
+<p>Debit cards are payment cards issued on debit BINs by banks to cardholders and are associated, in almost all cases, with a demand deposit account (DDA) - commonly known as a checking account. As a result, when a cardholder is issued a debit card with a primary account number (PAN), they are also provided a checking account and associated ACH account and routing number. Together, a cardholder can receive, transfer, and spend deposits.</p>
+<p>Overview</p>
+<ul>
+<li>In a consumer debit card transaction, the user can withdraw cash from their bank account at an ATM or when making a purchase at a merchant. These cards can often be used with or without a PIN at payment terminals.</li>
+<li>Commercial debit cards are linked to a business' own bank account. When an employee makes a purchase, the transaction amount is drawn from the company's account balance rather than&nbsp;added&nbsp;to the company's debt.</li>
+<li>Some companies prefer to issue debit cards because there are often fewer partners required to launch a debit card product than credit.</li>
+<li>Interchange: Low</li>
+</ul>
+<h3>How to maximize interchange on debit card programs</h3>
+<p>You can provide incentives for transaction types that will increase your interchange, such as card-present transactions and transactions authorized with a signature as opposed to a PIN.</p>
+<p>You can also increase your interchange by partnering with a Durbin-exempt bank. Debit card interchange is regulated by the Durbin Amendment, which sets the ceiling for debit interchange fees at 21 cents and 5 bps of the transaction amount for Durbin-regulated institutions (i.e., banks with over $10 billion in assets).</p>
+<p>In contrast, unregulated institutions (aka, Durbin-exempt banks, or banks with under $10 billion in assets) can get somewhere between 120-160 bps on a blended average basis for most consumer card programs.</p>
+<p>If earning the highest possible interchange is important to your business, then you may&nbsp;want&nbsp;to evaluate whether your program could be a charge card program as opposed to a debit card program.</p>
+<h2>Additional resources</h2>
+<ul>
+<li><a href="https://blog.lithic.com/interchange/">How Fintechs Earn Revenue from Credit and Debit Cards</a>&nbsp;by Lithic</li>
+<li><a href="https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/documents/merchant-rates-2022-2023-apr22.pdf">2022-2023 Mastercard US Region Interchange Programs and Rates</a></li>
+<li><a href="https://usa.visa.com/content/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf">2022 Visa USA Interchange Reimbursement Fees</a></li>
+<li><a href="https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm">Average Debit Card Interchange Fee by Payment Card Network</a></li>
+<li><a href="https://kunle.app/feb-2022-children-of-durbin.html">The blast radius of the Durbin Amendment</a>&nbsp;by Ayokunle Omojola</li>
+<li><a href="https://tanay.substack.com/p/fintech-and-regulatory-arbitrage">Fintech and Regulatory Arbitrage</a>&nbsp;by Tanay Jaipuria</li>
+</ul>
+
+</article>
+
+    </main>
+  </div>
+  <footer>
+    <p>© Eduardo Lopez</p>
+  </footer>
+</body>
