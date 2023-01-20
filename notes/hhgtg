@@ -1,0 +1,66 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hello! I'm Eduardo Lopez. Product Marketer and Author of the Fintech Explainers newsletter. I lead go-to-market strategy and product marketing for fintechs.">
+  <meta name="keywords" content="eduardo lopez, eduardolopez">
+  <meta name="title" content="Eduardo Lopez">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:site" content="https://elopez.net">
+  <meta name="twitter:image" content="/img/favicon.png">
+  <meta name="twitter:creator" content="@fintechgtm">
+  <link rel="icon" href="/img/favicon.png">
+  <link rel="stylesheet" type="text/css" href="../main.css">
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https:&#x2F;&#x2F;www.elopez.net&#x2F;atom.xml">
+  
+</head>
+<body>
+  <div class="main-container">
+    <div class="row" style="margin-bottom: 20px;">
+      <div class="grid twelve" style="display: flex; align-items: center;">
+        <div style="flex-grow: 1;">
+          <a href="/elopez" style="text-decoration: none; color: inherit;">
+            <span class="logo">EL</span>
+          </a>
+        </div>
+        <a href="/../essays" class="nav-item">Essays</a>
+        <a href="https://fintechgtm.substack.com" class="nav-item">Newsletter</a>
+        <a href="/../reading" class="nav-item">Reading</a>
+        <a href="/../notes" class="nav-item">Notes</a>
+      </div>
+    </div>
+    <main>
+      
+<div class="grid twelve" style="text-align: center;">
+  <small style="text-transform: uppercase; font-weight: 600; font-size: 0.6em; letter-spacing: 2px;">
+    Notes
+  </small>
+  <h1 class="title">
+    The Hitchhiker's Guide to the Galaxy Book Review: "Space Travel Meets Alice in Wonderland"
+  </h1>
+</div>
+<article style="margin-top: 30px;">
+<p>I just finished reading "The Hitchhiker's Guide to the Galaxy" and thought it was a fun and enjoyable read. I had trouble getting into the story at first because I didn't realize it was a satire on the sci-fi genre. But once I understood that, I found it much more enjoyable. If you&rsquo;re looking for a deep read or traditional sci-fi, this isn&rsquo;t it. But it is a great choice for a laugh or two.</p>
+<p>The story is about a guy named Arthur Dent who gets swept up on a wild adventure through space with his friend Ford Prefect. It's kind of like a space-travel version of <em>Alice in Wonderland</em> and borrows elements from other popular sci-fi stories. For example, there&rsquo;s a depressed robot named Marvin that is a parody of C3PO from Star Wars. Even "The Guide" itself is a gag on the "Encyclopedia Galactica" from the Foundation series by Isaac Asimov.</p>
+<p>Despite it being a fun story, I think it&rsquo;s a bit overhyped. It&rsquo;s got a cult following and often recommended as a must-read, but I don&rsquo;t think it lives up to the hype. It&rsquo;s the type of book you pick up just for fun, probably as a teenager. The characters are likable, there&rsquo;s a few plot twists, and it&rsquo;s got some clever jokes. But it doesn&rsquo;t have a lot of depth or a strong plot.</p>
+<h2>Fun quotes from the story</h2>
+<ul>
+<li>&ldquo;I'd far rather be happy than right any day.&rdquo;</li>
+<li>&ldquo;Isn't it enough to see that a garden is beautiful without having to believe that there are fairies at the bottom of it too?&rdquo;</li>
+<li>&ldquo;We demand rigidly defined areas of doubt and uncertainty!&rdquo;</li>
+<li>&ldquo;I don't want to die now!" he yelled. "I've still got a headache! I don't want to go to heaven with a headache, I'd be all cross and wouldn't enjoy it!&rdquo;</li>
+<li>&ldquo;If they don&rsquo;t keep exercising their lips, he thought, their brains start working.&rdquo;</li>
+<li>&ldquo;Well the hours are good...' ... 'but now you come to mention it, most of the actual minutes are pretty lousy.&rdquo;</li>
+<li>"A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.&rdquo;</li>
+</ul>
+
+</article>
+
+    </main>
+  </div>
+  <footer>
+    <p>© Eduardo Lopez</p>
+  </footer>
+</body>
