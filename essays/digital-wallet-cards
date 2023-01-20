@@ -1,0 +1,150 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hello! I'm Eduardo Lopez. Product Marketer and Author of the Fintech Explainers newsletter. I lead go-to-market strategy and product marketing for fintechs.">
+  <meta name="keywords" content="eduardo lopez, eduardolopez">
+  <meta name="title" content="Eduardo Lopez">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:site" content="https://elopez.net">
+  <meta name="twitter:image" content="/img/favicon.png">
+  <meta name="twitter:creator" content="@fintechgtm">
+  <link rel="icon" href="/img/favicon.png">
+  <link rel="stylesheet" type="text/css" href="../main.css">
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https:&#x2F;&#x2F;www.elopez.net&#x2F;atom.xml">
+  
+</head>
+<body>
+  <div class="main-container">
+    <div class="row" style="margin-bottom: 20px;">
+      <div class="grid twelve" style="display: flex; align-items: center;">
+        <div style="flex-grow: 1;">
+          <a href="/" style="text-decoration: none; color: inherit;">
+            <span class="logo">EL</span>
+          </a>
+        </div>
+        <a href="/essays" class="nav-item">Essays</a>
+        <a href="https://fintechgtm.substack.com" class="nav-item">Newsletter</a>
+        <a href="/reading" class="nav-item">Reading</a>
+        <a href="/notes" class="nav-item">Notes</a>
+      </div>
+    </div>
+    <main>
+      
+<div class="grid twelve" style="text-align: center;">
+  <small style="text-transform: uppercase; font-weight: 600; font-size: 0.6em; letter-spacing: 2px;">
+    Essays
+  </small>
+  <h1 class="title">
+    Digital Wallets and Tokenized Cards
+  </h1>
+  <div class="container">
+    <small class="grid eight description">
+      An explainer on how digital wallet compatible cards work.
+    </small>
+  </div>
+</div>
+<article style="margin-top: 30px;">
+
+<p>Digital wallets are quickly becoming the primary payment method for online purchases.</p>
+<p>According to FIS, digital wallets accounted for nearly&nbsp;<a href="https://thefinancialbrand.com/133635/digital-wallets-set-to-move-beyond-payments-become-super-wallets/">half of all ecommerce transactions</a>&nbsp;in 2021 (representing a bit over $2.5 trillion) and it&rsquo;s projected they will surpass physical card usage by the end of this&nbsp;year.</p>
+<p>With more consumers opting to use digital wallets over other payment options, we expect more fintechs are going to offer digital wallet compatible cards to gain &ldquo;top of wallet&rdquo; awareness.</p>
+<p>In this essay, I explain how digital wallets work and break down the step-by-step process required to offer a digital wallet compatible card.</p>
+<h2>What is a digital wallet?</h2>
+<p>Digital wallets are applications that allow users to securely store their payment information, make payments, and store their payment history.</p>
+<p>They eliminate the need to carry around cards in your physical wallet by letting you access your card&rsquo;s payment information from your smartphone, smartwatch, computer, or tablet. As long as a device supports near field communication (NFC) transmissions, it can be used to make payments.</p>
+<p>Because most consumers use wallets on mobile devices, the terms &ldquo;digital wallet&rdquo; and &ldquo;mobile wallet&rdquo; are often used interchangeably.</p>
+<p>There are many different types of digital wallets, but the three main players in the U.S. fintech space are Apple Pay, Google Pay, and Samsung Pay. Apple currently has the most users.</p>
+<div><img src="https://uploads-ssl.webflow.com/637cc4f83fed1c7cbf48f8c8/639c489ee63ad8d810f160e2_US-digital-wallet-users-by-platform-2021.png" alt="2021 - Digital Wallet Usage by Wallet Provider in Millions. Apple Pay has 43.9 million users. Google Pay has 25 million users. Samsung Pay has 16.3 million users." /></div>
+<p>Fun fact:&nbsp;The Starbucks mobile app also offers digital wallet-like features. With over 31 million users, Starbucks has more users than both Google and Samsung.</p>
+<h2>How do digital wallets work?</h2>
+<p>Digital wallets use a special type of card called a tokenized card. From a user perspective, they function similarly to a virtual or physical card. But on the backend, they use a process called tokenization to replace a card&rsquo;s sensitive data (PAN, CVV2, and expiration date) with a token.</p>
+<p>When a digital wallet uses a card for payment, it never exposes any of the original card details. Instead, the wallet provides a token. The token can be specific to a particular merchant or wallet, or valid for only a specific number of purchases.</p>
+<p>If a&nbsp;<a href="https://blog.lithic.com/fraud/">fraudster</a>&nbsp;intercepts a token, they won&rsquo;t be able to use it because the token either doesn&rsquo;t match the associated wallet, isn&rsquo;t the right token for the right merchant, or the token has already expired.</p>
+<p>This is why tokenized cards are considered much safer than other payment options.</p>
+<h2>How digital wallets work from a cardholder perspective</h2>
+<p>Most digital wallets come with a mobile app you can add to your device. Some devices come with a wallet pre-installed, such as iPhones and Apple Watches.</p>
+<p>To add a card, users either manually enter the card information or scan the card with their device&rsquo;s camera. Many fintechs leverage push provisioning to allow users to automatically add card details to their wallet with a tap of a button.</p>
+<p>Once a card is stored in a digital wallet, it be used for payment in several ways:</p>
+<ul>
+<li>via phone in a brick-and-mortar store</li>
+<li>on the checkout page of a website</li>
+<li>as a payment method within other apps</li>
+<li>through a messaging app</li>
+</ul>
+<p>When they&rsquo;re out shopping, users can pay by holding their device to any point-of-sale terminal that supports contactless payments. If they&rsquo;re shopping online, they simply choose the wallet as a payment option at checkout.</p>
+<p>To complete the transaction on mobile, the user will either need to provide a passcode or authenticate through biometric verification at checkout. If they&rsquo;re using a computer or laptop, users will instead be prompted to log in or provide a password.</p>
+<p>After a payment has been made, the merchant sends the token to the card network to match the token with the PAN. The network then forwards the authorization request to the issuer who approves the request, completing the transaction.</p>
+<h2>Virtual cards aren&rsquo;t default compatible with digital wallets</h2>
+<p>Virtual cards cannot be added to digital wallets unless they are tokenized.</p>
+<p>By default, they operate more like traditional physical cards and have all the same characteristics such as the 16-digit primary account number (PAN), CVV, cardholder name, and billing address. When a user pays with a virtual card, they provide the merchant with the PAN instead of a token.</p>
+<p>If a fraudster intercepts the transaction or gains access to the card information, the card is compromised and the bad actor will be able to use that to make further purchases.</p>
+<p>That&rsquo;s why tokenized cards are much safer payment options. No matter who gains access to the token, your PAN remains protected.</p>
+<h2>How to launch a tokenized card</h2>
+<p>Tokenized cards generally take longer to launch because they require coordination, review, and approvals from multiple parties (e.g. card networks, wallet providers). Missing certain deadlines can also extend the timeline further.</p>
+<p>Modern card issuing platforms&nbsp;now&nbsp;make this process much easier to manage and help expedite the launch process (although some companies may want to manage their own card program).</p>
+<p>No matter what approach you use, you&rsquo;ll still be working with the following players:</p>
+<ul>
+<li>Issuer:&nbsp;the entity that creates the card and releases it to end users (e.g., the fintech).</li>
+<li>Sponsor bank:&nbsp;also called the issuing bank, holds the principal issuing licenses with the card network(s), giving them the ability to issue cards with the schemes.</li>
+<li>Processor:&nbsp;the entity that connects the bank to the card network, processes card transactions, and orchestrates network messages between the issuer/sponsor bank and the card networks (e.g., Lithic).</li>
+<li>Card network:&nbsp;the card network remits payment between the parties engaged in the transaction (e.g., Mastercard or Visa). They take money from the party using the card to make a payment and send it to the merchant or other party receiving payment.</li>
+<li>Digital wallet provider:&nbsp;creates the digital wallet used to hold the tokenized card (e.g., Apple, Samsung, Google).</li>
+<li>Program manager:&nbsp;manages the card program. Typically the card issuing platform (e.g., Lithic) will hold this role, but the issuer can also manage its own card program.</li>
+</ul>
+<h2>The 7-step launch process for tokenized cards</h2>
+<p>The launch process, sometimes referred to as the implementation process, can be broken down into different phases.</p>
+<h3>Step 1: Establish a BIN or BIN range</h3>
+<p>To issue digital wallet cards, you need a BIN that is programmed to enable card tokenization or else the cards will not meet the technical requirements for inclusion in digital wallets.</p>
+<p>You can establish your own BIN or share an existing BIN. If you plan to act as your own card program manager or intend to take over the card program after launching, you will want to establish your own BIN.</p>
+<p>Establishing your own BIN takes extra time and can be more expensive. If you opt to use your card processor as a program manager, they can allocate a portion of an existing BIN to you.</p>
+<p>In order for a project to be opened with Mastercard and Visa, the BIN needs to be live or in the production environment (i.e., available to spend money).</p>
+<h3>Step 2: Card art approval</h3>
+<p>After you have a BIN in place, you need to design how your card will appear in the digital wallet. You will need to design the front of the card by selecting a card background color and submitting your logo.</p>
+<p>Card art must fit within certain specifications and requires approval from the card network, digital wallet provider, and your bank.</p>
+<p>Here are examples of the specifications you should expect from the card network:</p>
+<ul>
+<li>Company logo in PNG format (1372 x 283 pixels)</li>
+<li>Card design with no rounded corners in PNG format (1536 x 969 pixels)</li>
+<li>Company app icon in PNG format (100 x 100 pixels)</li>
+<li>Hex code value for your card&rsquo;s background color</li>
+<li>Hex code value for your PAN color</li>
+<li>Hex code value for your card description color</li>
+</ul>
+<h3>Step 3: Card configuration</h3>
+<p>Next, you need to submit the information that will be included with your card in the digital wallet app, such as your:</p>
+<ul>
+<li>Terms and conditions</li>
+<li>Contact information</li>
+<li>Different types of identifiers</li>
+</ul>
+<p>Wallet providers use identifiers to link the card back to your app. Apple and Google each require certain unique identifiers.</p>
+<p>You will also need to include other details to aid in configuration, such as your card&rsquo;s default settings upon activation.</p>
+<h3>Step 4: Network configuration</h3>
+<p>After you determine how your card will be configured, the network needs to take steps to support that configuration. To kick this process off, your card program manager needs to submit a request to the network to set up your card settings.</p>
+<h3>Step 5: Testing</h3>
+<p>Once your card and network configuration are complete, the card program manager needs to test the BIN range associated with your card program to ensure it is properly issuing tokens for specific, designated PANs or account numbers within the BIN&rsquo;s range. This ensures that cards within the BIN range will work as expected once they&rsquo;re issued to end users.</p>
+<h3>Step 6: Submit approvals to network</h3>
+<p>Next, your card program manager needs to submit forms that document successful testing and outlines certain program details to the card network. While the issuing bank is not involved in submitting these forms, card networks sometimes refer to them as &ldquo;financial institution forms.&rdquo;</p>
+<h3>Step 7: Apply for approvals from wallet providers</h3>
+<p>Finally, the card network will take the forms provided in step 6 and submit them to the wallet providers for approval. Each provider may request slightly different information. If your card processor is acting as your card program manager, they can help you navigate these requirements.</p>
+<p>Once your card receives approval from a digital wallet, you&rsquo;re ready to go live! You can officially start issuing tokenized cards users can add to the approved wallet.</p>
+<h3>Optional: Set up push provisioning (recommended)</h3>
+<p>Tokenized cards can be added to digital wallets through three methods:</p>
+<ul>
+<li>The user can manually type their card number into the digital wallet</li>
+<li>The user can scan the front and back of their card</li>
+<li>The user can push a token to the wallet using push provisioning</li>
+</ul>
+<p>Push provisioning makes it easier for users to add your card to their digital wallet, which means they&rsquo;re more likely to use it when it comes time to pay for a purchase. But it does require a bit of extra work as you&rsquo;ll need to integrate your app directly with the wallet provider.</p>
+
+</article>
+
+    </main>
+  </div>
+  <footer>
+    <p>© Eduardo Lopez</p>
+  </footer>
+</body>
